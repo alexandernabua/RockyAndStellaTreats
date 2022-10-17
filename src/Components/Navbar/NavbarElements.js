@@ -4,10 +4,10 @@ import { FaDog } from "react-icons/fa";
 
 export const Nav = styled.nav`
   background: #fff;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
-  font-weight: 700;
+  font-weight: 500;
 `;
 
 export const NavLink = styled(Link)`
@@ -35,7 +35,7 @@ export const NavIcon = styled.div`
 
   p {
     transform: translate(-175%, 100%);
-    font-weight: 600;
+    font-weight: 500;
   }
 `;
 
